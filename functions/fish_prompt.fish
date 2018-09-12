@@ -16,7 +16,8 @@ function fish_prompt
   set -l cwd $blue(basename (prompt_pwd))
 
   if [ (_git_branch_name) ]
-    set git_info $normal '|' $green(_git_branch_name)
+    set git_info $green(_git_branch_name)
+    set git_info "$normal|$gitinfo"
 
     if [ (_is_git_dirty) ]
       set -l dirty "*"
