@@ -1,6 +1,6 @@
 # catfish-pine
 
-A simple, Git aware prompt.
+A simple, Git aware prompt for Fish shell.
 
 ## Install
 
