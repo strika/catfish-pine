@@ -2,6 +2,8 @@
 
 A simple, Git aware prompt for Fish shell.
 
+![Screenshot](https://i.imgur.com/siCO62t.png)
+
 ## Install
 
 With [fisherman]:
