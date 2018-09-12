@@ -21,7 +21,7 @@ function fish_prompt
 
     if [ (_is_git_dirty) ]
       set -l dirty "*"
-      set git_info "$git_info$dirty"
+      set git_info $git_info $dirty
     end
   end
 
